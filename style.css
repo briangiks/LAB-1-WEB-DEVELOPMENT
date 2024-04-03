@@ -1,0 +1,144 @@
+.form{
+    background-color: white;
+    width: 500px;
+    height: 1050px;
+    border-radius: 8px;
+    margin: auto;
+    padding: 15px 30px;
+}
+form label{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    border: none 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+form select{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="button"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: inline;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color: #49c1a2;
+    font-size: 18px;
+}
+input,select{
+    padding: 15px 30px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+#openstat{
+    font-weight: bold; 
+    font-style: italic;
+    text-align: center;
+}   
+#topnav{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 18px 50px;
+    overflow: hidden;
+    margin: 0;
+    display: block;
+}
+li a{
+    text-decoration: none;
+    color: red;
+    padding: 10px 20px;
+    margin: 5px;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+#topnav li{
+    display: inline;
+}
+#dogicon{
+    width: 50px;
+    float: right;
+    border-radius: 5px;
+}
+body{
+    background-color: #f4f4f4;
+    font-family: Playfair Display , sans-serif;
+}
+#imgcap{
+    font-style: italic;
+    float: right;
+}
+#imgcap:hover img{
+    transform: scale(1.3);
+    filter: brightness(80%);
+}
+.images{
+    transform: scale(1.1);
+    filter: brightness(80%);
+    margin: 10px;
+    position: relative;
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+    padding-bottom: 10px;
+}
+.images:hover{
+    transform: scale(1.3);
+    filter: brightness(80%);
+}
+[type="submit"]:hover{
+    background-color: gray;
+    color: black;
+}
+#submit{
+    width: 100px;
+    margin-left: 500px;
+}
+.image-gallery {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+  .images {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+    margin: 25px;
+  }
+  .images:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+  }
+  figcaption {
+    margin-top: 5px;
+    font-style: italic;
+  }  
+.images{
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.error{
+    color: red;
+}
